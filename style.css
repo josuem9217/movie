@@ -1,0 +1,29 @@
+* {
+margin: 0;
+padding: 0;
+border:2px solid red;
+}
+#movieTitle{
+    color:#804000;
+    position:relative;
+    top:15px;
+    text-align:center;
+    font-size:5em;
+    background-color:rgba(128, 63, 0,.4);
+    margin-left:5%;
+    margin-right:5%;
+}
+.brownE{
+    color:#663200;
+}
+#desc{
+    background-color:;
+    padding:15px;
+    margin-left:5%;
+    position:relative;
+    float:left;
+    text-align:center;
+    font-size:2.5em;
+    max-width:
+    top:50px;
+}
