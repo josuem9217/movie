@@ -27,3 +27,7 @@ border:2px solid red;
     max-width:
     top:50px;
 }
+ body{
+     background-image: url("browne.jpeg");
+     background-size: 6px;
+ }
