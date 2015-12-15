@@ -9,7 +9,7 @@ text-shadow: 2px 2px black;
     top:15px;
     text-align:center;
     font-size:5em;
-    background-color:rgba(128, 63, 0,.4);
+    background-color:rgba(128, 63, 0,.6);
     margin-left:5%;
     margin-right:5%;
 }
@@ -17,28 +17,57 @@ text-shadow: 2px 2px black;
     color:#663200;
 }
 #desc{
-    background-color:;
-    padding:15px;
-    margin-left:5%;
-    margin-right:5%;
-    margin-top:25px;
+    background-color:rgba(128, 63, 0,.6);
     position:relative;
-    float:left;
+    top:25px;
+  margin-left:5%;
+  width:43.5%;
+  float:left;
+ 
+}
+p{
     text-align:center;
     font-size:2.5em;
-    max-width:800px;
-    top:50px;
     color:white;
 }
  body{
      background-image: url("browne.jpeg");
      background-size: 5px;
+     
  }
  #Eimg{
-     position:;
-     max-width:40%;
-     top:50px;
+     max-width:500px;
      margin:auto;
-     left:100px;
+     display:block;
+     padding:10px;
  }
- PUSH
+ #imgCont{
+     background-color:rgba(128, 63, 0,.6);
+    position:relative;
+    top:25px;
+     margin-left:52.5%;
+     margin-right:5%;
+ }
+#sweepstakes{
+    font-size:1.75em;
+    padding-left:20px;
+    padding-right:20px;
+}
+form{
+    text-align:center;
+    font-size:1em;
+}
+input{
+    border-radius:7px;
+    width:50%;
+    height:35px;
+    font-size:15px;
+    text-shadow:none;
+ 
+}
+button{
+      width:50%;
+    height:35px;
+    font-size:15px;
+    text-shadow:none;
+}
