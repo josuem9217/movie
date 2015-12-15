@@ -26,8 +26,9 @@ border:2px solid red;
     float:left;
     text-align:center;
     font-size:2.5em;
-    max-width:00px;
+    max-width:800px;
     top:50px;
+     text-shadow: 2px 2px #000000;
 }
  body{
      background-image: url("browne.jpeg");
