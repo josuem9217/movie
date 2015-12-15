@@ -1,7 +1,7 @@
 * {
 margin: 0;
 padding: 0;
-border:2px solid red;
+text-shadow: 2px 2px black;
 }
 #movieTitle{
     color:#804000;
@@ -17,7 +17,6 @@ border:2px solid red;
     color:#663200;
 }
 #desc{
-    background-color:;
     padding:15px;
     margin-left:5%;
     margin-right:5%;
@@ -28,9 +27,17 @@ border:2px solid red;
     font-size:2.5em;
     max-width:800px;
     top:50px;
-     text-shadow: 2px 2px #000000;
+    color:white;
+    text-shadow: black;
 }
  body{
      background-image: url("browne.jpeg");
-     background-size: 6px;
+     background-size: 5px;
+ }
+ #Eimg{
+     position:;
+     max-width:40%;
+     top:50px;
+     margin:auto;
+     left:100px;
  }
