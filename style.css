@@ -1,88 +1,92 @@
 * {
-margin: 0;
-padding: 0;
-text-shadow: 2px 2px black;
-font-family: 'Rock Salt', cursive;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px black;
+    font-family: 'Rock Salt', cursive;
 }
-#movieTitle{
-    color:white;
-    position:relative;
-    top:15px;
-    text-align:center;
-    font-size:3em;
-    background-color:rgba(128, 63, 0,.6);
-    margin-left:5%;
-    margin-right:5%;
+
+#movieTitle {
+    color: white;
+    position: relative;
+    top: 15px;
+    text-align: center;
+    font-size: 3em;
+    background-color: rgba(128, 63, 0, .6);
+    margin-left: 5%;
+    margin-right: 5%;
 }
-.brownE{
-    color:#663200;
+
+.brownE {
+    color: #663200;
 }
-#desc{
-    background-color:rgba(128, 63, 0,.6);
-    position:relative;
-    top:25px;
-  margin-left:5%;
-  width:43.5%;
-  float:left;
- 
+
+#desc {
+    background-color: rgba(128, 63, 0, .6);
+    position: relative;
+    top: 25px;
+    margin-left: 5%;
+    width: 43.5%;
+    float: left;
 }
+
 #bpic {
     position: relative;
-     margin-left:20%;
-     margin-right:10%;
-       width:60%;
-float: left;
-    
+    margin-left: 20%;
+    margin-right: 10%;
+    width: 60%;
+    float: left;
 }
 
-p{
-    text-align:center;
-    font-size:1.5em;
-    color:white;
-}
- body{
-     background-image: url("browne.jpeg");
-     background-size: 5px;
-     
- }
- #Eimg{
-     max-width:500px;
-     margin:auto;
-     display:block;
-     padding:10px;
- }
- #imgCont{
-     background-color:rgba(128, 63, 0,.6);
-    position:relative;
-    top:25px;
-     margin-left:52.5%;
-     margin-right:5%;
-     
-    
-
- }
-#sweepstakes{
-    font-size:1.2em;
-    padding-left:20px;
-    padding-right:20px;
-}
-form{
-    text-align:center;
-    font-size:1em;
-}
-input{
-    border-radius:7px;
-    width:50%;
-    height:35px;
-    font-size:15px;
-    text-shadow:none;
-     margin-bottom:15px;
-}
-button{
-      width:50%;
-    height:35px;
-    font-size:15px;
-    text-shadow:none;
-    margin-bottom:15px;
+p {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
 }
 
+body {
+    background-image: url("browne.jpeg");
+    background-size: 5px;
+}
+
+#Eimg {
+    max-width: 80%;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+
+#imgCont {
+    background-color: rgba(128, 63, 0, .6);
+    position: relative;
+    top: 25px;
+    margin-left: 52.5%;
+    margin-right: 5%;
+}
+
+#sweepstakes {
+    font-size: 1.2em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+form {
+    text-align: center;
+    font-size: 1em;
+}
+
+input {
+    border-radius: 7px;
+    width: 50%;
+    height: 35px;
+    font-size: 15px;
+    text-shadow: none;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 50%;
+    height: 35px;
+    font-size: 15px;
+    text-shadow: none;
+    margin-bottom: 15px;
+}
