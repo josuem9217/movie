@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Brown E’s Attack</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
     <style type="text/css">
 
     </style>
@@ -17,7 +18,9 @@
             document.getElementById("sweepstakes").innerHTML = "THANKS FOR SUBMITTING ";
             document.getElementById("sweepstakes").style.visibility = "visible";
             document.getElementById("sweepstakes").style.fontSize = "2em";
+            document.getElementById("bpic").style.visibility = "visible";
             document.getElementById("bpic").src = "brownie.jpg";
+
         }
     </script>
     <h1 id="movieTitle">Brown <span class="brownE">E</span>’s Attack</h1>
@@ -25,31 +28,26 @@
         <p>One day, someone asks you if you want a brownie, but they lied. The protagonist dies mid movie, because it was not a brownie, but an m&m…. honestly. From Oscar nominated director, Josue Moran, Brown E’s Attack. Presented only at Sundance Film
             Festival.
         </p>
-        <br>
+
         <br>
         <hr>
-        <br>
+
         <br>
         <div id="sweep">
             <p id="sweepstakes">ENTER YOUR NAME AND EMAIL TO ENTER THE SWEEPSTAKES FOR TICKETS TO SEE BROWN E'S ATTACK IN THEATRES JUNE 9TH</p>
+            <img src=" " id="bpic">
             <form id="form">
                 <br>
                 <input type="text" placeholder="Name:">
-                <br>
+
                 <br>
                 <input type="email" placeholder="Email:">
-                <br>
+
                 <br>
                 <button type="button" onclick="myFunction()">SUBMIT</button>
-               
+                
             </form>
-            
         </div>
-         <div id="brownie">
-                    <img src=" " id="bpic">
-                </div>
-
-
     </div>
     <div id="imgCont"> <img id="Eimg" src="browne.jpeg"> </div>
 </body>
