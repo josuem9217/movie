@@ -90,3 +90,8 @@ button {
     text-shadow: none;
     margin-bottom: 15px;
 }
+
+.enslaved {
+    margin: auto;
+    position: relative;
+}
